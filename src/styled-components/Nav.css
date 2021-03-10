@@ -1,0 +1,45 @@
+.Nav {
+    color: white; 
+    display: grid;
+    font-size: 10px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 1em;
+}
+
+img::after{
+  content: "";
+  background: white;
+	mix-blend-mode: exclusion;
+  width: calc(100% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -10px;
+	transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.player-stats-link {
+    color: white;
+    text-decoration: none;
+    grid-column: 2; 
+    grid-row: 1;
+}
+
+.team-stats-link {
+    color: white;
+    text-decoration: none;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.recent-games-link {
+    color: white;   
+    text-decoration: none;
+    grid-row: 1;
+    grid-column: 4;
+}
