@@ -1,14 +1,17 @@
 import React from 'react';
-import headshots from '../headshots.json'
+import roster from '../headshots.json'
+import '../css/Players.css'
 
 
 const Players = ( ) => {
     return (
         <div>
-            THIS IS THE PLAYERS PAGE. 
-            {headshots.map(player => {
+            {roster.map(player => {
                 return (
-                    <img src={player.image} alt={player.name}/>
+                    <div>
+                        <img src={player.image} alt={player.name}/>
+                        <h4>{player.name}</h4>
+                    </div>
                 )
             })}
         </div>

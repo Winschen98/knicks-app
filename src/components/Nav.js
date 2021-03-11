@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styled-components/Nav.css';
+import '../css/Nav.css';
 import logo from '../images/knicks-logo.png';
+import roster from '../headshots.json'
 
 const Nav = ( ) => {
     return (
@@ -13,9 +14,9 @@ const Nav = ( ) => {
             <Link to="/players" className='player-stats-link dropdown'>
             <h1>Player Stats</h1>
                 <div className="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    {roster.map(player => 
+                        <Link to=''>{player.name}</Link>
+                    )}
                 </div>
             </Link>
 

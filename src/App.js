@@ -1,4 +1,4 @@
-import './styled-components/App.css';
+import './css/App.css';
 
 import Nav from './components/Nav';
 import Home from './components/Home';
@@ -19,11 +19,6 @@ function App( ) {
         <Route path='/players' component={Players}/>
         <Route path='/team-stats' component={Team}/>
         <Route path='/Games' component={Games}/>
-
-				{/* <Route
-					path='/details/:id'
-					render={(routerProps) => <BirdsDetails match={routerProps.match} />}
-				/> */}
       </main>
       <footer className='footer'>
         All imagery, music, trademarks etc. are © Copyright their respective owners. All rights reserved. 
