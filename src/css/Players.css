@@ -1,8 +1,3 @@
-img {
-    width: 23%; 
-    height: auto; 
-}
-
 .player-card {
     display: flex;
     /* justify-content: center; */
@@ -10,6 +5,12 @@ img {
     margin-bottom: 1em;
     text-decoration: none;
 }
+
+.player-card img {
+    width: 23%; 
+    height: auto; 
+}
+
 
 .link {
     color: black;

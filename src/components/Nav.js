@@ -12,20 +12,22 @@ const Nav = ( ) => {
             <img src={logo} className='logo' alt='logo'/>
             </Link>
 
-            <Link to="/players" className='roster-link dropdown'>
+            <div className='dropdown'>
+            <Link to="/players" className='roster-link'>
             <h1>ROSTER</h1>
+            </Link>
                 <div className="dropdown-content">
                     {roster.map(player => 
                         <Link 
                         id="RouterNavLink"
-                        to={`/player/${player.name}`}
+                        to={`/player/${player.id}`}
                         key={player.name}
                         >
                         {player.name}
                         </Link>
                     )}
                 </div>
-            </Link>
+            </div>
 
             <Link to="/team-stats" className='team-stats-link'>
             <h1>TEAM STATS</h1>

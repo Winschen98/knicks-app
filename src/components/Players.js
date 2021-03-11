@@ -10,7 +10,7 @@ const Players = ( ) => {
             {roster.map(player => {
                 return (
                     <div key={player.name}className='card-container'>
-                        <Link className='link' to={`/player/${player.name}`}>
+                        <Link className='link' to={`/player/${player.id}`}>
                             <div className='player-card'>
                                 <img src={player.image} alt={player.name}/>
                                 <h4>{player.name}</h4>

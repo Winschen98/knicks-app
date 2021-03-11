@@ -1,10 +1,10 @@
 import React from 'react';
+import dRoseArt from '../images/d_rose.jpg'
 
 const Home = () => {
     return (
         <div>
-            THIS IS THE HOMEPAGE
-            
+            <img src={dRoseArt}/>
         </div>
     );
 };

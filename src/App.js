@@ -20,7 +20,7 @@ function App( ) {
         <Route path='/Games' component={Games}/>
 
         <Route 
-        path="/player/:player" 
+        path="/player/:playerID" 
         render={(routerProps) => <Player match={routerProps.match}/> } 
         />
       </main>

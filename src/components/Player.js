@@ -3,26 +3,62 @@ import roster from '../headshots.json'
 
 
 const Player = ({ match }) => {
-    console.log(match)
-    // const [player, setPlayer] = useState();
-    const lastName = 'knox'; 
+    const [player, setPlayer] = useState(null);
 
+    let specificPlayer = roster.find(
+    player => player.id === match.params.playerID
+    );
+  
     useEffect(() => {
-
-        fetch(`https://balldontlie.io/api/v1/players?search=${lastName}`)
-            .then(res => res.json())
-            .then((res) => {
-                console.log(res)
-                // setPlayer(res)
+        const url = "https://www.balldontlie.io/api/v1/players/" + match.params.playerID;
+        fetch(url)
+            .then((res) => res.json())
+            .then((res) => setPlayer(res))      
+            .catch(err => {
+                alert(`error occurred: ${err}`);
             })
+    }, [match.params.playerID]);
 
-    }, []);
+    console.log(player)
+
+    if (!player){
+        return <h2>loading...</h2>
+    } 
+    // fill in missing data
+    if (player.first_name === "RJ"){
+        player.height_feet = '6'
+        player.height_inches = '6'
+        player.weight_pounds = '214'
+    }
+    if (player.first_name === "Jared"){
+        player.height_feet = '5'
+        player.height_inches = '10'
+        player.weight_pounds = '175'
+    }
+    if (player.first_name === "Immanuel"){
+        player.height_feet = '6'
+        player.height_inches = '3'
+        player.weight_pounds = '190'
+    }
+    if (player.first_name === "Ignas"){
+        player.height_feet = '6'
+        player.height_inches = '6'
+        player.weight_pounds = '221'
+    }
+    if (player.first_name === "RJ"){
+        player.height_feet = '6'
+        player.height_inches = '9'
+        player.weight_pounds = '220'
+    }
+    // end of missing data
 
     return (
         <div>
-            THIS IS THE PAGE FOR A SINGLE PLAYER!! 
-            <h1>{match.params.player}</h1>
-            <img src={roster[0].image}/>
+            <h1>{player.first_name} {player.last_name}</h1>
+            <img src={specificPlayer.image} alt={player.first_name}/>
+            <h3>Height: {player.height_feet}'{player.height_inches}</h3>
+            <h3>Weight: {player.weight_pounds}</h3>
+            <h3>Position: {player.position}</h3>
         </div>
     );
 };
