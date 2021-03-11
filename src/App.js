@@ -7,13 +7,12 @@ import Games from './components/Games';
 import Players from './components/Players'
 
 import { Route } from 'react-router-dom';
-import headshots from './headshots.json';
 
 function App( ) {
   return (
     <div className="App">
       <header className='header'>
-        <Nav headshots={headshots}/>
+        <Nav />
       </header>
       <main className='main'>
 				<Route path='/' exact component={Home} />
