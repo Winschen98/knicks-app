@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Nav.css';
 import logo from '../images/knicks-logo.png';
+import searchIcon from '../images/search-icon.png'
 import roster from '../headshots.json'
 
 const Nav = ( ) => {
@@ -15,7 +16,13 @@ const Nav = ( ) => {
             <h1>Player Stats</h1>
                 <div className="dropdown-content">
                     {roster.map(player => 
-                        <Link to=''>{player.name}</Link>
+                        <Link 
+                        id="RouterNavLink"
+                        to='/players' 
+                        key={player.name}
+                        >
+                        {player.name}
+                        </Link>
                     )}
                 </div>
             </Link>
@@ -27,6 +34,8 @@ const Nav = ( ) => {
             <Link to="/games" className='recent-games-link'>
             <h1>Games</h1>
             </Link>
+
+            <img className='search-icon' src={searchIcon} alt='search-icon'/>
         </div>
     );
 };

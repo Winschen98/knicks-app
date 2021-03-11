@@ -3,7 +3,7 @@
     display: grid;
     font-size: 10px;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 4fr .75fr;
 }
 
 .logo {
@@ -68,4 +68,10 @@ h1:hover{
     text-decoration: none;
     grid-row: 1;
     grid-column: 4;
+}
+
+.search-icon {
+    width: 30px;
+    margin-top: 1.8em;
+    grid-column: 6;
 }

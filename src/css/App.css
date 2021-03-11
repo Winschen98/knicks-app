@@ -7,7 +7,7 @@
   display: grid; 
   grid-template-rows: 1fr 15fr .3fr;
   grid-template-columns: 1fr 7fr 1fr;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .header {
@@ -26,5 +26,6 @@
   font-size: 11px;
   grid-row: 3;
   grid-column: 1 / span 3; 
-  background-color: lightpink;
+  background-color: rgba(28, 29, 29, 0.822);
+  color: whitesmoke
 }
