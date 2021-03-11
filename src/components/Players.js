@@ -9,9 +9,9 @@ const Players = ( ) => {
         <div>
             {roster.map(player => {
                 return (
-                    <div className='card-container'>
-                        <Link className='link' to={`/players/${''}`}>
-                            <div className='player-card' key={player.name}>
+                    <div key={player.name}className='card-container'>
+                        <Link className='link' to={`/player/${player.name}`}>
+                            <div className='player-card'>
                                 <img src={player.image} alt={player.name}/>
                                 <h4>{player.name}</h4>
                             </div>

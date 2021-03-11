@@ -1,11 +1,10 @@
 import './css/App.css';
-
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Team from './components/Team';
 import Games from './components/Games';
 import Players from './components/Players'
-
+import Player from './components/Player'
 import { Route } from 'react-router-dom';
 
 function App( ) {
@@ -19,6 +18,11 @@ function App( ) {
         <Route path='/players' component={Players}/>
         <Route path='/team-stats' component={Team}/>
         <Route path='/Games' component={Games}/>
+
+        <Route 
+        path="/player/:player" 
+        render={(routerProps) => <Player match={routerProps.match}/> } 
+        />
       </main>
       <footer className='footer'>
         All imagery, music, trademarks etc. are © Copyright their respective owners. All rights reserved. 

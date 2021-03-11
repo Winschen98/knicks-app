@@ -24,7 +24,7 @@ h1:hover{
     transition-delay: 0s;
   }  
 
-.player-stats-link {
+.roster-link {
     color: white;
     text-decoration: none;
     grid-column: 2; 

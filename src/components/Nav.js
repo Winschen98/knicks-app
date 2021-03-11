@@ -12,13 +12,13 @@ const Nav = ( ) => {
             <img src={logo} className='logo' alt='logo'/>
             </Link>
 
-            <Link to="/players" className='player-stats-link dropdown'>
-            <h1>Player Stats</h1>
+            <Link to="/players" className='roster-link dropdown'>
+            <h1>ROSTER</h1>
                 <div className="dropdown-content">
                     {roster.map(player => 
                         <Link 
                         id="RouterNavLink"
-                        to='/players' 
+                        to={`/player/${player.name}`}
                         key={player.name}
                         >
                         {player.name}
@@ -28,11 +28,11 @@ const Nav = ( ) => {
             </Link>
 
             <Link to="/team-stats" className='team-stats-link'>
-            <h1>Team Stats</h1>
+            <h1>TEAM STATS</h1>
             </Link>
 
             <Link to="/games" className='recent-games-link'>
-            <h1>Games</h1>
+            <h1>GAMES</h1>
             </Link>
 
             <img className='search-icon' src={searchIcon} alt='search-icon'/>
