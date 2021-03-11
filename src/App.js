@@ -1,6 +1,11 @@
 import './styled-components/App.css';
+
 import Nav from './components/Nav';
 import Home from './components/Home';
+import Team from './components/Team';
+import Games from './components/Games';
+import Players from './components/Players'
+
 import { Route } from 'react-router-dom';
 import headshots from './headshots.json';
 
@@ -12,6 +17,10 @@ function App( ) {
       </header>
       <main className='main'>
 				<Route path='/' exact component={Home} />
+        <Route path='/players' component={Players}/>
+        <Route path='/team-stats' component={Team}/>
+        <Route path='/Games' component={Games}/>
+
 				{/* <Route
 					path='/details/:id'
 					render={(routerProps) => <BirdsDetails match={routerProps.match} />}

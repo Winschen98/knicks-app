@@ -10,7 +10,7 @@ const Nav = ( ) => {
             <img src={logo} className='logo' alt='logo'/>
             </Link>
 
-            <Link to="" className='player-stats-link dropdown'>
+            <Link to="/players" className='player-stats-link dropdown'>
             <h1>Player Stats</h1>
                 <div className="dropdown-content">
                     <a href="#">Link 1</a>
@@ -19,11 +19,11 @@ const Nav = ( ) => {
                 </div>
             </Link>
 
-            <Link to="" className='team-stats-link'>
+            <Link to="/team-stats" className='team-stats-link'>
             <h1>Team Stats</h1>
             </Link>
 
-            <Link to="" className='recent-games-link'>
+            <Link to="/games" className='recent-games-link'>
             <h1>Games</h1>
             </Link>
         </div>
