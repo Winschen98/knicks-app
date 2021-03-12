@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import '../css/Team.css'
 
 const Team = () => {
-    // console.log(process.env.REACT_APP_API_KEY);
 
-    const API_KEY = 'eb27178f3cf44d56a95df2a7683cff64'
+    const API_KEY = process.env.REACT_APP_API_KEY
+
     const url = 'https://api.sportsdata.io/v3/nba/scores/json/TeamSeasonStats/2021'
 
     const [team, setTeam] = useState(null);
@@ -25,7 +26,7 @@ const Team = () => {
         return <h2>loading...</h2>
     } 
     return (
-        <div>
+        <div className='team_page'>
             <h1>{team.Name}</h1>
             <h2>W{team.Wins}-{team.Losses}L</h2>
             <h2>Season Stats {team.Season}</h2>

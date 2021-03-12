@@ -4,6 +4,7 @@ import MSG from '../images/MSG.jpg'
 import insideMSG from '../images/MSG_court.jpg'
 import obiArt from '../images/obi_dunk.png'
 import coachThibs from '../images/coach_thibs.jpg'
+// import juliusArt from '../images/JU'
 import '../css/Home.css'
 
 const Home = () => {
