@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import roster from '../headshots.json'
+import '../css/Player.css'
 
 
 const Player = ({ match }) => {
@@ -53,7 +54,7 @@ const Player = ({ match }) => {
     // end of missing data
 
     return (
-        <div>
+        <div className='player_page'>
             <h1>{player.first_name} {player.last_name}</h1>
             <img src={specificPlayer.image} alt={player.first_name}/>
             <h3>Height: {player.height_feet}'{player.height_inches}</h3>

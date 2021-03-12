@@ -1,0 +1,42 @@
+.game_card {
+    display: flex; 
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.date_text {
+    margin: 0; 
+    font-size: 24px;
+}
+
+.teams_text {
+    margin: 0;
+    font-size: 18px;
+}
+
+.games_page a {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: black;
+  overflow: hidden;
+}
+
+.games_page a {
+  background: linear-gradient(to right, midnightblue, royalblue 50%, black 50%);
+}
+
+.games_page a {
+  /* Same as before */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.games_page a:hover {
+  background-position: 0 100%;
+}
