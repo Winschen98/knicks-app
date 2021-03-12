@@ -1,0 +1,40 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem; 
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+.MSG_header {
+    /* color: white;  */
+    grid-column: 1 / span 8;  
+}
+
+.img_1 {
+    
+}
+
+.img_2 {
+    grid-column: 1 / span 6;  
+    grid-row: 2 / span 5;
+}
+
+.img_3 {
+    grid-column: 1 / span 2; 
+    grid-row: 5 / span 3;
+}
+
+.img_4 {
+
+}
+
+.img_5 {
+
+}
