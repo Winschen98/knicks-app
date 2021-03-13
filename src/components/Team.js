@@ -41,7 +41,7 @@ const Team = () => {
             <h3>STL {Math.round(team.Steals/team.Games*10)/10}</h3>
             <h3>BLK {Math.round(team.BlockedShots/team.Games*10)/10}</h3>
             <h3>TOV {Math.round(team.Turnovers/team.Games*10)/10}</h3>
-            <h3>Fouls {Math.round(team.PersonalFouls/team.Games*10)/10}</h3>
+            <h3>FOULS {Math.round(team.PersonalFouls/team.Games*10)/10}</h3>
         </div>
     );
 };
