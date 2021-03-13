@@ -1,11 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-// import headshots from './headshots.json'
 import {
   BrowserRouter as Router
 } from "react-router-dom"
+
 
 ReactDOM.render(
   <Router>

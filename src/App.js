@@ -6,6 +6,7 @@ import Games from './components/Games';
 import Players from './components/Players'
 import Player from './components/Player'
 import Game from './components/Game'
+import About from './components/About'
 import { Route } from 'react-router-dom';
 // import React, { useState, useEffect } from 'react';
 
@@ -33,7 +34,9 @@ function App( ) {
 				<Route path='/' exact component={Home} />
         <Route path='/players' component={Players}/>
         <Route path='/team-stats' component={Team}/>
-        <Route path='/Games' component={Games}/>
+        <Route path='/games' component={Games}/>
+        <Route path='/about' component={About}/>
+        
         <Route 
         path='/game/:gameID' 
         render={(routerProps) => <Game match={routerProps.match}/>}

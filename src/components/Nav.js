@@ -37,6 +37,10 @@ const Nav = ( ) => {
             <h1>GAMES</h1>
             </Link>
 
+            <Link to="/About" className='about-link'>
+            <h1>ABOUT</h1>
+            </Link>
+
             <img className='search-icon' src={searchIcon} alt='search-icon'/>
         </div>
     );

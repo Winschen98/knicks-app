@@ -7,21 +7,28 @@ import empireState from '../images/empire_state.jpg'
 import obiArt from '../images/obi_dunk.png'
 import coachThibs from '../images/coach_thibs.jpg'
 import juliusArt from '../images/Julius_art.png'
+import frankArt from '../images/frank_art.jpg'
 import '../css/Home.css'
-
+import { Carousel } from 'react-bootstrap'
+ 
 const Home = () => {
     return (
         <div>
             <div className='msg_gallery'>
-                <h2 className='MSG_header'>Views from Madison Square Garden</h2>
+                <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
+                <Carousel fade>
+                    <Carousel.Item>
+                        <img src={MSG} alt='MSG building' className='gallery_img msg_1'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={insideMSG} alt='inside MSG' className='gallery_img msg_2'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={bannersMSG} alt='MSG banners' className='gallery_img msg_2'/>
+                    </Carousel.Item>
+                </Carousel>
 
-                <img src={MSG} alt='MSG building' className='gallery_img msg_1'/>
 
-                <img src={insideMSG} alt='inside MSG' className='gallery_img msg_2'/>
-
-                <img src={empireState} alt='inside MSG' className='gallery_img msg_2'/>
-
-                <img src={bannersMSG} alt='inside MSG' className='gallery_img msg_2'/>
             </div>
 
             <div>
@@ -31,6 +38,8 @@ const Home = () => {
                 <img src={obiArt} alt='obi toppin dunk' className='gallery_img img_4'/>
 
                 <img src={juliusArt} alt='Julius Randle' className='gallery_img msg_2'/>
+
+                <img src={frankArt} alt='Frank Ntilikina' className='gallery_img msg_2'/>
 
                 <article>
                     <a href='https://bleacherreport.com/articles/2935555-tom-thibodeau-on-knicks-trade-rumors-i-have-a-strong-bias-towards-good-players' className='link'> 

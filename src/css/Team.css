@@ -1,3 +1,22 @@
-.team_page {
-    height: 100vh; 
+.team_name {
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+
+.record {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+.stats_header {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.stats {
+    font-size: 28px;
+}
+
+.stats h3 {
+    margin: 0.3em;
 }

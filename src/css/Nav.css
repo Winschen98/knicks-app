@@ -3,7 +3,7 @@
     display: grid;
     font-size: 10px;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 4fr .75fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 4fr .75fr;
 }
 
 .logo {
@@ -70,8 +70,15 @@
     grid-column: 4;
 }
 
+.about-link {
+    color: white;   
+    text-decoration: none;
+    grid-row: 1;
+    grid-column: 5;
+}
+
 .search-icon {
     width: 30px;
     margin-top: 1.8em;
-    grid-column: 6;
+    grid-column: 7;
 }
