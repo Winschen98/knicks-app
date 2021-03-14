@@ -1,7 +1,12 @@
+.carousel {
+    z-index: 9;  
+}
+
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-rows: 1fr 15fr .3fr;
+    grid-template-columns: 1fr 7fr 1fr;
     grid-gap: 1.5rem; 
 }
 

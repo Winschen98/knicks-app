@@ -17,8 +17,8 @@ const Home = () => {
             <div className='msg_gallery'>
                 <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
                 <Carousel fade>
-                    <Carousel.Item>
-                        <img src={MSG} alt='MSG building' className='gallery_img msg_1'/>
+                    <Carousel.Item >
+                        <img src={MSG} alt='MSG building' className='gallery_img msg_1 carousel' />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={insideMSG} alt='inside MSG' className='gallery_img msg_2'/>

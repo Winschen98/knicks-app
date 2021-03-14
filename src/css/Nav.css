@@ -6,6 +6,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 4fr .75fr;
 }
 
+.Nav .text-size {
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+
 .logo {
     width: 80px;
     margin-right: 1em;
@@ -25,19 +30,19 @@
   }  
 
 .roster-link {
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
     grid-column: 2; 
     grid-row: 1;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: absolute !important;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 1 !important;
 }
 
 .dropdown-content a {
@@ -45,7 +50,7 @@
   font-size: 16px;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: block !important;
 }
 
 .dropdown:hover .dropdown-content {
@@ -54,31 +59,32 @@
 
 .dropdown-content a:hover {
     background-color: #ddd;
+    z-index: 2 !important;
 }
 
 .team-stats-link {
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
     grid-row: 1;
     grid-column: 3;
 }
 
 .recent-games-link {
-    color: white;   
-    text-decoration: none;
+    color: white !important;   
+    text-decoration: none !important;
     grid-row: 1;
     grid-column: 4;
 }
 
 .about-link {
-    color: white;   
-    text-decoration: none;
+    color: white !important;   
+    text-decoration: none !important;
     grid-row: 1;
     grid-column: 5;
 }
 
 .search-icon {
     width: 30px;
-    margin-top: 1.8em;
+    margin-top: 2.7em;
     grid-column: 7;
 }

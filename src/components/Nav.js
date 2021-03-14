@@ -14,7 +14,7 @@ const Nav = ( ) => {
 
             <div className='dropdown'>
             <Link to="/players" className='roster-link'>
-            <h1>ROSTER</h1>
+            <h1 className='text-size'>ROSTER</h1>
             </Link>
                 <div className="dropdown-content">
                     {roster.map(player => 
@@ -30,15 +30,15 @@ const Nav = ( ) => {
             </div>
 
             <Link to="/team-stats" className='team-stats-link'>
-            <h1>TEAM STATS</h1>
+            <h1 className='text-size'>TEAM STATS</h1>
             </Link>
 
             <Link to="/games" className='recent-games-link'>
-            <h1>GAMES</h1>
+            <h1 className='text-size'>GAMES</h1>
             </Link>
 
             <Link to="/About" className='about-link'>
-            <h1>ABOUT</h1>
+            <h1 className='text-size'>ABOUT</h1>
             </Link>
 
             <img className='search-icon' src={searchIcon} alt='search-icon'/>
