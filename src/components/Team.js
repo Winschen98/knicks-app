@@ -28,7 +28,7 @@ const Team = () => {
     return (
         <div className='team_page'>
             <h1 className='team_name'>{team.Name}</h1>
-            <h2 className='record'>W{team.Wins}-{team.Losses}L</h2>
+            <h2 className='record'><span className='win'>W</span>{team.Wins}-{team.Losses}<span className='loss'>L</span></h2>
             <h2 className='stats_header'>Season Stats {team.Season}</h2>
             <div className='stats'>
                 <h3>FGP {team.FieldGoalsPercentage/2}%</h3>
