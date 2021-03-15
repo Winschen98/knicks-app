@@ -14,7 +14,7 @@ const Players = ( ) => {
                             <div className='player-card'>
                                 <img src={player.image} alt={player.name}/>
                                 <h4 className='jersey_num'>{player.number}</h4>
-                                <h4>{player.name}</h4>
+                                <h4 className='text'>{player.name}</h4>
                             </div>
                         </Link>
                     </div>

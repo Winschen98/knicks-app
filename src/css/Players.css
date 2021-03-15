@@ -7,7 +7,7 @@
 }
 
 .player-card img {
-    width: 23%; 
+    width: 20%; 
     height: auto; 
 }
 
@@ -15,6 +15,10 @@
 .link {
     color: black !important;
     text-decoration: none !important;
+}
+
+.player-card .text {
+    font-size: 36px;
 }
 
 .player-card:hover{
@@ -35,13 +39,14 @@
     margin-top: .25em; 
     margin-right: 1em; 
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    padding: 8px;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
 
-    background: #fff;
-    border: 2px solid #666;
+    background: orange;
+    border: 2px solid orange;
     color: black;
     text-align: center;
-    font-size: 14px; 
+    font-size: 16px; 
+    font-weight: 900;
   }

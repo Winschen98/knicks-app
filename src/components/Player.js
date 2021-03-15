@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import roster from '../headshots.json'
 import '../css/Player.css'
-import player_bg from '../images/player_bg.jpg'
 
 
 

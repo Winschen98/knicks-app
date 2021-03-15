@@ -5,6 +5,8 @@
 .headshot {
     width: 20em; 
     margin-left: 12em;
+    /* border-radius: 50%; */
+    /* background-color: white; */
 }
 
 .bio_text {
