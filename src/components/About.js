@@ -26,7 +26,7 @@ const About = () => {
                 <div className='contributors'>
                     <img src={profile} alt='contributor' className='profile_img'/>    
                     <p className='about_description'>
-                        My name is Winston Chen and I was born and raised in Lower East Side of New York. For as long as I've known how to tie my shoes I've been a knicks fan. As of the currrent date that this page is being worked on the Knicks are an above .500 team, something that has not been the case for nearly a decade. Rejoice my fellow knickerbockers!
+                        My name is Winston Chen and I was born and raised in Lower East Side of New York City. For as long as I've known how to tie my shoes I've been a knicks fan. As of the currrent date that this page is being worked on the Knicks are an above .500 team, something that has not been the case for nearly a decade. Rejoice my fellow knickerbockers!
                     </p>
                 </div>
         </div>
