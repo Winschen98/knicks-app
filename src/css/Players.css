@@ -1,7 +1,7 @@
 .player-card {
     display: flex;
     /* justify-content: center; */
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(0,107,184);
     margin-bottom: 1em;
     text-decoration: none;
 }
@@ -19,6 +19,8 @@
 
 .player-card .text {
     font-size: 36px;
+    align-self: center;
+    color: white;
 }
 
 .player-card:hover{
@@ -36,16 +38,16 @@
 
 .jersey_num {
     margin-left: -1.5em;
-    margin-top: .25em; 
+    margin-top: .5em; 
     margin-right: 1em; 
     border-radius: 50%;
     width: 48px;
     height: 48px;
     padding: 12px;
 
-    background: orange;
-    border: 2px solid orange;
-    color: black;
+    background: rgb(245,133,34);
+    border: 2px solid whitesmoke;
+    color: white;
     text-align: center;
     font-size: 16px; 
     font-weight: 900;

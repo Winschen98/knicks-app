@@ -17,8 +17,8 @@ import { Carousel } from 'react-bootstrap'
 const Home = () => {
     return (
         <div>
+            <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
             <div className='carousel-container'>
-                <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
                 <Carousel fade>
                     <Carousel.Item>
                         <img src={MSG} alt='MSG building' className='carousel_img' style={{zIndex:'0'}} />
