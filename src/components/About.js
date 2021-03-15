@@ -10,7 +10,7 @@ const About = () => {
                 </h1>
             <main className='about_description'>
                 <p>
-                    Welcome to InstaKnicks, the place to get your fix of the latest knicks news, stats, and fan content. My hope is that this can become a place for Knicks fan like myself to find a like-minded community and share their thoughts. 
+                    Welcome to OnlyKnicks, the place to get your fix of the latest knicks news, stats, and fan content. My hope is that this can become a place for Knicks fan like myself to find a like-minded community and share their thoughts. 
                 </p>
                 <p>
                     With time I will look towards implementing a system to leave comments and feedback for any visitors. Until then, please enjoy the current content. 
