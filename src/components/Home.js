@@ -12,6 +12,9 @@ import '../css/Home.css'
 import rjArt from '../images/rj_art.png'
 import mitchArt from '../images/Mitch_art.png'
 import quickleyArt from '../images/quickley_art.jpg'
+import immanuelQuickley from '../images/Immanuel-Quickley.jpg'
+import lonzoBall from '../images/lonzo-ball.jpg'
+import rj from '../images/rj.jpg'
 import { Carousel } from 'react-bootstrap'
  
 const Home = () => {
@@ -51,8 +54,8 @@ const Home = () => {
             </div>
 
 
-
-                <article className='article'>
+            <div className='article-grid'>
+                <article className='article article-1'>
                     <a href='https://bleacherreport.com/articles/2935555-tom-thibodeau-on-knicks-trade-rumors-i-have-a-strong-bias-towards-good-players' className='link'> 
                         <h1 className='article_title'>Coach Thibodeau Bringing In a Star Before The Trade Deadline?
                         </h1>
@@ -60,6 +63,34 @@ const Home = () => {
                         className='article_img'/>
                     </a>
                 </article>
+
+                <article className='article article-2'>
+                    <a href='https://dailyknicks.com/2021/03/14/new-york-knicks-starting-immanuel-quickley-elfrid-payton/' className='link'> 
+                        <h1 className='article_title'>Should Immanuel Quickley Start?
+                        </h1>
+                        <img src={immanuelQuickley} alt='Immanuel Quickley layup'
+                        className='article_img'/>
+                    </a>
+                </article>
+
+                <article className='article article-3'>
+                    <a href='https://empiresportsmedia.com/new-york-knicks/why-the-new-york-knicks-should-trade-for-lonzo-ball/' target="_blank" className='link'> 
+                        <h1 className='article_title'>Knicks Aggresive in Pursuing Lonzo Ball Trade
+                        </h1>
+                        <img src={lonzoBall} alt='Lonzo Ball'
+                        className='article_img'/>
+                    </a>
+                </article>
+
+                <article className='article article-4'>
+                    <a href='https://empiresportsmedia.com/new-york-knicks/why-the-new-york-knicks-should-trade-for-lonzo-ball/' target="_blank" className='link'> 
+                        <h1 className='article_title_bottom'>RJ Barrett breakout?
+                        </h1>
+                        <img src={rj} alt='RJ Barrett dunk'
+                        className='article_img'/>
+                    </a>
+                </article>
+            </div>
         </div>
     );
 };
