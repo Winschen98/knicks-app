@@ -16,6 +16,8 @@ import immanuelQuickley from '../images/Immanuel-Quickley.jpg'
 import lonzoBall from '../images/lonzo-ball.jpg'
 import rj from '../images/rj.jpg'
 import { Carousel } from 'react-bootstrap'
+import ReactPlayer from 'react-player';
+
  
 const Home = () => {
     return (
@@ -71,6 +73,23 @@ const Home = () => {
                         <img src={bannersMSG} alt='MSG banners' className='carousel_img'/>
                     </Carousel.Item>
                 </Carousel>
+            </div>
+
+                <h2 className='vid-header white'>VIDEOS</h2>
+            <div className='videos'>    
+                <ReactPlayer 
+                width='400px'
+                height='250px'
+                url='https://www.youtube.com/watch?v=2T6bTV4u6lE' className='vid-1' />
+                <ReactPlayer 
+                width='810px'
+                height='500px'
+                url='https://www.youtube.com/watch?v=sM0evxAVrWA' className='vid-2'/>
+                <ReactPlayer 
+                width='400px'
+                height='250px'
+                url='https://www.youtube.com/watch?v=KCht1ZNU2-w' className='vid-3'
+                />
             </div>
 
             <div className='gallery'>

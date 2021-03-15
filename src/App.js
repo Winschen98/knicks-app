@@ -8,6 +8,7 @@ import Player from './components/Player'
 import Game from './components/Game'
 import About from './components/About'
 import { Route } from 'react-router-dom';
+
 // import React, { useState, useEffect } from 'react';
 
 function App( ) {
