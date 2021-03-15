@@ -15,8 +15,6 @@ const Games = ( ) => {
             })
     }, []);
 
-    console.log(games)
-
     if(!games){
         return <h1>loading...</h1>
     }

@@ -21,7 +21,7 @@ const Team = () => {
             })
     }, []);
 
-    console.log(team)
+    
     if (!team){
         return <h2>loading...</h2>
     } 

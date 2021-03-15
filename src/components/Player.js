@@ -32,9 +32,6 @@ const Player = ({ match }) => {
         
     }, [match.params.playerID]);
 
-    
-    console.log(stats)
-    // console.log(player)
 
     if (!player || !stats){
         return <h2>loading...</h2>

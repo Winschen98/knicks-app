@@ -3,7 +3,6 @@ import '../css/Game.css'
 // import Games from './Games';
 
 const Game = ({ match }) => {
-    console.log(match.params.gameID)
     const [game, setGame] = useState(null);
     const url = "https://www.balldontlie.io/api/v1/games?seasons[]=2020&team_ids[]=20"
 
@@ -15,7 +14,6 @@ const Game = ({ match }) => {
                 alert(`error occurred: ${err}`);
             })
     }, []);
-    console.log(game)
 
     if (!game){
         return <h2>loading...</h2>
