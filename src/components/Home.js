@@ -21,13 +21,13 @@ const Home = () => {
                 <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
                 <Carousel fade>
                     <Carousel.Item >
-                        <img src={MSG} alt='MSG building' className='gallery_img carousel' />
+                        <img src={MSG} alt='MSG building' className='carousel_img carousel' />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={insideMSG} alt='inside MSG' className='gallery_img'/>
+                        <img src={insideMSG} alt='inside MSG' className='carousel_img'/>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={bannersMSG} alt='MSG banners' className='gallery_img'/>
+                        <img src={bannersMSG} alt='MSG banners' className='carousel_img'/>
                     </Carousel.Item>
                 </Carousel>
             </div>
@@ -52,9 +52,9 @@ const Home = () => {
 
 
 
-                <article>
+                <article className='article'>
                     <a href='https://bleacherreport.com/articles/2935555-tom-thibodeau-on-knicks-trade-rumors-i-have-a-strong-bias-towards-good-players' className='link'> 
-                        <h1 className='article_title'>Will Coach Thibodeau Bring In a Star Before The Trade Deadline?
+                        <h1 className='article_title'>Coach Thibodeau Bringing In a Star Before The Trade Deadline?
                         </h1>
                         <img src={coachThibs} alt='coach Thibodeau'
                         className='article_img'/>

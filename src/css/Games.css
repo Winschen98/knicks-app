@@ -29,7 +29,6 @@
 }
 
 .games_page a {
-  /* Same as before */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

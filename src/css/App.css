@@ -6,7 +6,7 @@
   text-align: center;
   display: grid; 
   grid-template-rows: 1fr 15fr .3fr;
-  grid-template-columns: 1fr 7fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   /* background-color: lightblue; */
 }
 

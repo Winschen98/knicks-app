@@ -1,7 +1,17 @@
 .carousel {
     z-index: 0 !important;  
+    display: flex;
+    flex-direction: column;
 }
-    
+ 
+.carousel_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+
 .gallery_img {
     width: 100%;
     height: 100%;
@@ -11,10 +21,14 @@
 
 .MSG_header {
     /* color: white;  */
+    margin-top: .2em;
+    font-size: 36px;
     grid-column: 1 / span 8;  
 }
 
 .gallery {
+    padding: 5px;
+    background-color: black;
     margin-top: 10em;
     margin-bottom: 10em;
     display: grid;
@@ -59,7 +73,7 @@
 }
 
 .gallery_text {
-    font-size: 72px;
+    font-size: 84px;
     background: -webkit-linear-gradient(rgb(255, 140, 32), #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -67,11 +81,23 @@
     grid-column: 1 / span 2;
 }
 
+.article {
+    position: relative;
+    margin-bottom: 1em;
+}
 
 .article_title{
-    font-size: 48px;
-    text-decoration: none;
-    margin-bottom: .2em; 
+    font-size: 36px;
+    text-decoration: none !important;
+    /* margin-bottom: .2em;  */
+    text-align: left;
+    position: absolute;
+    left: 55px;
+    /* bottom: 0px; */
+    width: 85%;
+    color: white; 
+    z-index: 2 !important;
+    font-weight: bold; 
 }
 
 .article_img{
