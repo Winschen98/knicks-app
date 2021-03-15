@@ -20,40 +20,6 @@ import { Carousel } from 'react-bootstrap'
 const Home = () => {
     return (
         <div>
-            <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
-            <div className='carousel-container'>
-                <Carousel fade>
-                    <Carousel.Item>
-                        <img src={MSG} alt='MSG building' className='carousel_img' style={{zIndex:'0'}} />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={insideMSG} alt='inside MSG' className='carousel_img'/>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={bannersMSG} alt='MSG banners' className='carousel_img'/>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
-
-            <div className='gallery'>
-                <h2 className='MSG_header gallery_text'>FAN ART</h2>
-
-                <img src={dRoseArt} alt='derrick rose art' className='gallery_img img_1'/>
-
-                <img src={rjArt} alt='RJ Barrett' className='gallery_img img_2'/>
-                
-                <img src={juliusArt} alt='Julius Randle' className='gallery_img img_3'/>
-
-                <img src={obiArt} alt='obi toppin dunk' className='gallery_img img_4'/>
-
-                <img src={frankArt} alt='Frank Ntilikina' className='gallery_img img_5'/>
-
-                <img src={mitchArt} alt='Mitchell Robinson' className='gallery_img img_6'/>
-
-                <img src={quickleyArt} alt='Immanuel Quickley' className='gallery_img img_7'/>
-            </div>
-
-
             <div className='article-grid'>
                 <article className='article article-1'>
                     <a href='https://bleacherreport.com/articles/2935555-tom-thibodeau-on-knicks-trade-rumors-i-have-a-strong-bias-towards-good-players' className='link'> 
@@ -90,6 +56,39 @@ const Home = () => {
                         className='article_img'/>
                     </a>
                 </article>
+            </div>
+
+            <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
+            <div className='carousel-container'>
+                <Carousel fade>
+                    <Carousel.Item>
+                        <img src={MSG} alt='MSG building' className='carousel_img' style={{zIndex:'0'}} />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={insideMSG} alt='inside MSG' className='carousel_img'/>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={bannersMSG} alt='MSG banners' className='carousel_img'/>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+
+            <div className='gallery'>
+                <h2 className='MSG_header gallery_text'>FAN ART</h2>
+
+                <img src={dRoseArt} alt='derrick rose art' className='gallery_img img_1'/>
+
+                <img src={rjArt} alt='RJ Barrett' className='gallery_img img_2'/>
+                
+                <img src={juliusArt} alt='Julius Randle' className='gallery_img img_3'/>
+
+                <img src={obiArt} alt='obi toppin dunk' className='gallery_img img_4'/>
+
+                <img src={frankArt} alt='Frank Ntilikina' className='gallery_img img_5'/>
+
+                <img src={mitchArt} alt='Mitchell Robinson' className='gallery_img img_6'/>
+
+                <img src={quickleyArt} alt='Immanuel Quickley' className='gallery_img img_7'/>
             </div>
         </div>
     );
