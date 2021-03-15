@@ -54,7 +54,7 @@
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block !important;
 }
 
 .dropdown-content a:hover {

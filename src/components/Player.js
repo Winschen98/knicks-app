@@ -61,6 +61,11 @@ const Player = ({ match }) => {
         player.height_inches = '6'
         player.weight_pounds = '221'
     }
+    if (player.first_name === "Obi"){
+        player.height_feet = '6'
+        player.height_inches = '9'
+        player.weight_pounds = '220'
+    }
     // end of missing data
 
     return (
