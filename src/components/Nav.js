@@ -7,7 +7,9 @@ import roster from '../headshots.json'
 
 const Nav = ( ) => {
     return (
-        <div className="Nav">
+        <div className="Nav" style={{ 
+            zIndex:'10000'
+        }}>
             <Link to="/" className='home-link'>
             <img src={logo} className='logo' alt='logo'/>
             </Link>

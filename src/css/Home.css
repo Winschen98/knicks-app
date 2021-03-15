@@ -1,7 +1,8 @@
-.carousel {
+.carousel-container {
     z-index: 0 !important;  
     display: flex;
     flex-direction: column;
+    position: relative;
 }
  
 .carousel_img{

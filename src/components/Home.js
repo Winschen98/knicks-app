@@ -17,11 +17,11 @@ import { Carousel } from 'react-bootstrap'
 const Home = () => {
     return (
         <div>
-            <div className='carousel'>
+            <div className='carousel-container'>
                 <h2 className='MSG_header'>Views from Madison Square Garden</h2> 
                 <Carousel fade>
-                    <Carousel.Item >
-                        <img src={MSG} alt='MSG building' className='carousel_img carousel' />
+                    <Carousel.Item>
+                        <img src={MSG} alt='MSG building' className='carousel_img' style={{zIndex:'0'}} />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={insideMSG} alt='inside MSG' className='carousel_img'/>
