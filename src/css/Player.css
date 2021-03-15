@@ -31,6 +31,7 @@
 .player_bio .name {
     font-size: 48px;
     color: white; 
+    max-width: 200px;
 }
 
 .player_bio h3{
@@ -38,6 +39,7 @@
     font-weight: bold;
     margin-top: .5em; 
     color: white;
+    width: 200px;
 }
 
 .player_card{
