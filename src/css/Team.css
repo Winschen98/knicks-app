@@ -22,10 +22,10 @@
     margin: 0.3em;
 }
 
-/* .win {
-    color: rgb(2, 62, 107)
+.win {
+    color:  rgb(0,107,184)
 }
 
 .loss {
-    color: rgb(255, 171, 15)
-} */
+    color: rgb(245,133,34);
+}

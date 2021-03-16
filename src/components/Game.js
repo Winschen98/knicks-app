@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../css/Game.css'
-// import Games from './Games';
 
 const Game = ({ match }) => {
     const [game, setGame] = useState(null);
