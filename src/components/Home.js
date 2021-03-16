@@ -51,7 +51,7 @@ const Home = () => {
                 </article>
 
                 <article className='article article-4'>
-                    <a href='https://empiresportsmedia.com/new-york-knicks/why-the-new-york-knicks-should-trade-for-lonzo-ball/' target="_blank" className='link'> 
+                    <a href='https://dailyknicks.com/2021/03/13/knicks-win-rj-barrett-breakout/' target="_blank" className='link'> 
                         <h1 className='article_title_bottom'>RJ Barrett breakout?
                         </h1>
                         <img src={rj} alt='RJ Barrett dunk'
