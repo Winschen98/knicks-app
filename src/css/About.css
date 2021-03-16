@@ -1,0 +1,27 @@
+/* .about_page {
+    min-height: 100vh;
+} */
+
+.about_header {
+    font-size: 48px;
+    text-align: left;
+}
+
+.about_description {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1em; 
+}
+
+.profile_img {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    border: rgb(0,107,184) 5px;
+}
+
+.contributors{
+    display: flex; 
+    margin-left: .2em; 
+}

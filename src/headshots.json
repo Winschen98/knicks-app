@@ -1,0 +1,104 @@
+[
+    {
+        "number": 9,
+        "id": "666423",
+        "name": "RJ Barrett",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629628.png"
+    },
+    {
+        "number": 25,
+        "id": "75",
+        "name": "Reggie Bullock",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203493.png"
+    },
+    {
+        "number": 17,
+        "id": "666464",
+        "name": "Ignas Brazdeikis",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629649.png"
+    },
+    {
+        "number": 18,
+        "id": "77",
+        "name": "Alec Burks",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202692.png"
+    },
+    {
+        "number": 67,
+        "id": "173",
+        "name": "Taj Gibson",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201959.png"
+    },
+    {
+        "number": 0,
+        "id": "666616",
+        "name": "Jared Harper",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629607.png"
+    },
+    {   
+        "number": 20,
+        "id" : "259",
+        "name": "Kevin Knox",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628995.png"
+    },
+    {   
+        "number": 3,
+        "id": "345",
+        "name": "Nerlens Noel",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203457.png"
+    },
+    {
+        "number": 11,
+        "id": "347",
+        "name": "Frank Ntilikina",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628373.png"
+    },
+    {   
+        "number": 6,
+        "id": "369",
+        "name": "Elfrid Payton",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203901.png"
+    },
+    {   
+        "number": 21,
+        "id": "370",
+        "name": "Theo Pinson",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629033.png"
+    },
+    {
+        "number": 5,
+        "id": "3547269",
+        "name": "Immanuel Quickley",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630193.png"
+    },
+    {
+        "number": 30,
+        "id": "387",
+        "name": "Julius Randle",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203944.png"
+    },
+    {
+        "number": 8,
+        "id": "393",
+        "name": "Austin Rivers",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203085.png"
+    },
+    {
+        "number": 23,
+        "id": "399",
+        "name": "Mitchell Robinson",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629011.png"
+    },
+    {
+        "number": 4,
+        "id": "401",
+        "name": "Derrick Rose",
+        "image": "https://images.ctfassets.net/u31h9rzvvynu/59eFLmk8jO8H6C9aan738N/d32a6a57d470c0f962ae94f0c59d1a05/Rose-Derrick-Headshot-2021.png"
+    },
+    {
+        "number": 1,
+        "id": "3547243",
+        "name": "Obi Toppin",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630167.png"
+    }
+]

@@ -1,0 +1,68 @@
+.player_page {
+    min-height: 100vh;
+    /* background-color:rgb(221,225,254); */
+}
+
+.headshot {
+    width: 20em; 
+    margin-left: 12em;
+    /* border-radius: 50%; */
+    /* background-color: white; */
+}
+
+.bio_text {
+    margin-top: 1em;
+
+}
+
+.player_bio {
+    padding-top: 2em; 
+    display: flex; 
+    justify-content: center;
+    border-bottom: 1px solid black;
+    background-image: url('https://i.pinimg.com/originals/22/12/50/221250003aa909a2197d1fe8b295ed9c.jpg');
+    background-repeat: repeat;
+    background-size: 130% 280%;
+    background-position: 155% 50%;
+}
+
+
+
+.player_bio .name {
+    font-size: 48px;
+    color: white; 
+}
+
+.player_bio h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: .5em; 
+    color: white;
+}
+
+.player_card{
+    text-align: center;
+}
+
+.player_stat {
+    margin-top: 3em; 
+    display: grid; 
+    grid-template-columns: .75fr 1fr 1fr .75fr;
+}
+
+.player_stat h4 {
+    font-size: 2.25em; 
+    /* font-weight: bold;  */
+}
+
+.player_stat span {
+    font-weight: bold;
+}
+
+.col1 {
+    grid-column: 2;
+}
+
+.col2 {
+    grid-column: 3;
+}
